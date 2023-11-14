@@ -1,0 +1,31 @@
+.time-bar {
+	background: #000;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	color: #585959;
+}
+.select-lang {
+	display: inline-block;
+}
+
+#lang-btn {
+	background: transparent;
+	border: 1px solid transparent;
+}
+div.dropdown-menu.show {
+	min-width: auto;
+	background: rgba(0, 0, 0, 0.7);
+}
+.link {
+	color: #585959;
+}
+
+a {
+	text-decoration: none !important;
+	cursor: pointer;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}

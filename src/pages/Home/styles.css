@@ -1,0 +1,130 @@
+.t-header {
+	position: relative;
+	z-index: 2;
+	background: #000 url(../../../public/header-bg.jpg) repeat-x;
+	background-size: 100% 100%;
+}
+.header-top {
+	background-size: cover;
+	height: auto;
+	color: #fff;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.logo {
+	max-width: 250px;
+}
+
+.header-sec {
+    padding: 13px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-form {
+    display: grid;
+    grid-template-columns: 30% 30% 20% 20%;
+    grid-gap: 5px;
+    margin: 0;
+}
+
+.log-field {
+    align-self: center;
+    width: 30%;
+    background: #151515;
+    border: 1px solid #747474;
+    color: #666666;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 5px;
+    position: relative;
+}
+
+input.log_input {
+    background: none;
+    border: none;
+    width: 70%;
+    padding: 0;
+    padding-right: 5px;
+    color: #666666;
+}
+
+input.log_input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+input.log_input::placeholder {
+    color: #fff;
+}
+
+.forgot {
+    color: #666666;
+    font-size: 12px;
+    align-self: center;
+    font-weight: 500;
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.forgot:hover {
+    color: #e9deaa;
+}
+
+button.login-btn {
+    border: none;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 13px;
+    padding: 6px;
+    width: 15%;
+    transition: 0.3s;
+    background: #0084ff;
+    border-radius: 20px;
+}
+
+button.login-btn:focus,
+button.join-btn:focus {
+    outline: none;
+}
+
+button.login-btn:hover,
+button.join-btn:hover {
+    filter: drop-shadow(0 0 3px rgb(255, 255, 255, 0.5));
+    transform: scale(0.97);
+    transition: 0.3s;
+}
+
+button.join-btn {
+    text-align: center;
+    color: #d300ff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px;
+    transition: 0.3s;
+    border: 2px solid #d300ff;
+    background: black;
+    padding: 3px;
+    border-radius: 25px;
+    box-shadow: 0px 0 10px #d300ff;
+    width: 18%;
+    animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+    from {
+        color: #d300ff;
+        border: 1px solid #d300ff;
+        box-shadow: 0px 0 10px #d300ff;
+    }
+    to {
+        color: #00f6ff;
+        border: 1px solid #00f6ff;
+        box-shadow: 0px 0 5px #00f6ff;
+    }
+}
